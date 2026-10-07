@@ -1,4 +1,5 @@
 import "./Menu.css"
+import "./MenuSection.css"
 import Logo from "../../assets/icon.svg"
 import Grid from "../../assets/grid-white.png"
 function Menu () {
