@@ -1,6 +1,6 @@
 
 import Menu from "./Pages/Menu/Menu";
-import {BrowserRouter, Route ,Routes} from "React-router-dom";
+import {BrowserRouter, Route ,Routes} from "react-router-dom";
 function Rotas (){
   return (
     <BrowserRouter>
