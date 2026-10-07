@@ -1,0 +1,45 @@
+.Mbody {
+    padding-top: clamp(40px,5vh,80px);
+    display: flex;
+    justify-content: center;
+    min-height: 100dvh;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(0, 0, 0);
+  color: rgb(230, 230, 230);
+}
+.Mbody header {
+    padding: clamp(15px,1vw,40px);
+    font-size: 1.1rem;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    display: flex;
+    width: clamp(250px,80%,600px);
+    height: clamp(45px,5vh,80px);
+    background-color: rgba(20, 20, 20, 0.664);
+    border-radius: 0px 0px 10px 10px;
+}
+.Mlogoheader{
+    object-fit: cover;
+    height: clamp(30px,5vh,30px);
+}
+.Mlogoheader2{
+    cursor: pointer;
+    object-fit: cover;
+    height: clamp(10px,5vh,23px);
+    transition: all 0.5s ease-in-out;
+}
+.Mlogoheader2:hover{
+    height: clamp(14px,6vh,26px);
+}
+.Mbody section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: clamp(40px,5vh,80px);
+    background-color: rgb(218, 217, 217);
+    opacity: 0;
+}
