@@ -1,0 +1,17 @@
+.MbodySection{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    align-content: start;
+    gap: 16px;
+    padding: 20px;
+    width: clamp(250px, 90%, 1200px);
+    height: clamp(200px, 80vh, 2400px);
+    margin-top: 30px;
+    flex-shrink: 0;
+    background-color: #1a1a1f;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #444 transparent;
+}

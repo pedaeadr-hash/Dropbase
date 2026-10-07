@@ -1,4 +1,4 @@
-*/HEADER/
+/* HEADER */
 .Mbody {
     padding-top: clamp(40px,5vh,80px);
     display: flex;
@@ -19,7 +19,7 @@
     display: flex;
     width: clamp(250px,90%,1200px);
     height: clamp(45px,5vh,80px);
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: #1a1a1f;
     border-radius: 0px 0px 10px 10px;
 }
 .Mlogoheader{
@@ -34,13 +34,4 @@
 }
 .Mlogoheader2:hover{
     height: clamp(14px,6vh,26px);
-}
-.Mbody section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: clamp(40px,5vh,80px);
-    background-color: rgb(218, 217, 217);
-    opacity: 0;
 }
