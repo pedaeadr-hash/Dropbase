@@ -9,6 +9,7 @@
 }
 
 html {
+  overscroll-behavior-y: none;
   scroll-behavior: smooth;
   min-height: 100%;
    background-color: rgb(2, 2, 2);
