@@ -6,7 +6,7 @@
     min-height: 100dvh;
   width: 100%;
   overflow-x: hidden;
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(2, 2, 2);
   color: rgb(230, 230, 230);
 }
 .Mbody header {
@@ -20,7 +20,7 @@
     width: clamp(250px,90%,1200px);
     height: clamp(45px,5vh,80px);
     background-color: #1a1a1f;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
 }
 .Mlogoheader{
     object-fit: cover;
