@@ -24,11 +24,30 @@
     border-radius: 10px;
     width: clamp(250px, 90%, 1200px);
     height: clamp(200px, 80vh, 2400px);
-    background-color: #444;
+    background-color: #000000;
     opacity: 0;
     pointer-events: none;
     transition: 0.4s ease-in-out;
+    border: 0.2px solid gray;
 }
+.MenuM button {
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 10%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #36363670;
+    color: rgb(175, 176, 177);
+}
+.arquivo {
+    width: 100px;
+}
+
 .active {opacity: 1;
     pointer-events: all;
 z-index: 10000;}
