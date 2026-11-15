@@ -1,0 +1,60 @@
+/* Reset básico para padding e borda não estourarem os 100% */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+
+  width: 100%;
+  min-height: 100dvh; /* Dynamic Viewport Height: ajusta automaticamente com a barra do iPhone */
+  overflow-x: hidden; /* Trava o scroll lateral indesejado */
+  overscroll-behavior-y: none; /* Evita o efeito "elástico" puxando a tela no iOS */
+  -webkit-text-size-adjust: 100%; /* Impede o Safari de aumentar fontes sozinho ao girar a tela */
+}
+body{
+    background-color: white;
+    max-height: 100dvh;
+}
+/* login*/
+.login {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+.leftl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100dvh;
+  background-color: rgb(136, 136, 136);
+}
+.rightl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100dvh;
+  background-color: rgb(255, 255, 255);
+}
+.rightl img {
+  width: clamp(150px,50%,500px);
+  animation: logoanim 1s forwards;
+   
+}
+@keyframes logoanim {
+  0%{
+    opacity: 0.9;
+    transform: translateX(600px);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0px);
+  }
+}
