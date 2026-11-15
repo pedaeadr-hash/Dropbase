@@ -3,6 +3,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 206;
 }
 
 html, body {
@@ -26,12 +28,39 @@ body{
   
 }
 .leftl {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100dvh;
-  background-color: rgb(136, 136, 136);
+  background-color: rgba(131, 112, 112, 0);
+}
+.leftl div{
+  position: relative;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1.9rem;
+  animation: contentlogin 0.9s forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: clamp(300px,70%, 600px);
+  height: clamp(100px,70%,800px);
+  background-color: rgb(20, 20, 20);
+  
+}
+.leftl input{
+  color: white;
+  outline: none;
+  width: 100%;
+  margin-top: 0.7rem;
+  height: clamp(30px,70%,50px);
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  font-weight: 300;
 }
 .rightl {
   display: flex;
@@ -54,7 +83,20 @@ body{
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    
+    filter: blur(0px);
+  }
+}
+@keyframes contentlogin {
+  0%{
+    opacity: 0.9;
+    transform: translateY(-600px);
+    filter: blur(2px);
+  }
+  50%{filter: blur(1px);}
+  100% {
+    opacity: 1;
+    
     filter: blur(0px);
   }
 }
